@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-ixon" href="https://www.science.org/do/10.1126/science.aac4663/abs/sn-rockpaper.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="word" style="color: rgb(234, 161, 3);" >ROCK PAPER SCISSORS</p>
+
+    <p class="word"> If you scored 10 first, you win </p>
+     
+    <button onclick="playGame('rock');" class="background"><img src="rock.image.png" class="size"> </button>
+    <button onclick="playGame('paper');"class="background"><img src="paper.image.png" class="size1"> </button>
+    <button onclick="playGame('scissors')"class="background"><img src="scissors.image.png" class="size"></button>
+
+    <p class="js-move move"></p>
+    <p class="js-result result"></p>
+    <p class="js-score scores" ></p>
+
+ 
+    <button onclick="score.wins = 0; score.losses = 0; score.ties = 0; 
+    localStorage.removeItem('score');  updateScore();  resetscores()" class="resett"> Reset All</button>
+    <!-- <button class="resett" onclick="autoPlay()">Autoplay</button> -->
+
+    <p class="winner"></p> <p class="reset-message"> </p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

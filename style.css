@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(35, 34, 34);
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial;
+}
+
+.size{
+
+    height:  60px;
+}
+
+.size1{
+    height: 70px;
+}
+
+.background{
+    background-color: transparent;
+    border-radius: 70px;
+    margin: 15px;
+    border: 3px solid whitesmoke;
+    height:  115px;
+    width: 115px;
+    cursor: pointer;
+    
+}
+
+.word{
+
+    color: whitesmoke;
+    word-spacing: 5px;
+    font-size: 23px;
+}
+
+.resett{
+    margin-top: 20px;
+    background-color: rgb(193, 56, 227);
+    color: whitesmoke;
+    padding: 17px;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.result{
+    color: whitesmoke;
+    word-spacing: 3px;
+    font-size: 29px;
+    font-weight: bolder;
+}
+
+.move{
+    color: whitesmoke;
+    word-spacing: 1px;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-left: 35px;
+    
+}
+
+.scores{
+    color: whitesmoke;
+    word-spacing: 3px;
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.winner{
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.reset-message{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: aliceblue;
+    margin-left: 430px;
+    margin-top: -41px;
+  
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+    body{
+        background-color: rgb(35, 34, 34);
+        text-align: center;
+        margin-top: 60px;
+        font-family: Arial;
+    }
+
+    .size{
+
+        height:  55px;
+    }
+    
+    .size1{
+        height: 65px;
+    }
+
+    .background{
+        background-color: transparent;
+        border-radius: 70px;
+        margin: 15px;
+        border: 3px solid whitesmoke;
+        height:  95px;
+        width: 95px;
+        cursor: pointer;
+        
+    }
+
+    .move{
+        color: whitesmoke;
+        word-spacing: 1px;
+        font-size: 23px;
+        font-weight: bolder;
+        margin-top: 40px;
+        margin-left: 35px;
+        
+    }
+    .result{
+        color: whitesmoke;
+        word-spacing: 3px;
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .scores{
+        color: whitesmoke;
+        word-spacing: 3px;
+        font-size: 22px;
+        margin-top: 60px;
+    }
+    .reset-message{
+        font-size: 15px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        color: aliceblue;
+        margin-left: 0px;
+        margin-top: 0px;
+      
+    
+    }
+
+}
+
+@media screen and (max-width: 410px)
+{
+    body{
+        background-color: rgb(35, 34, 34);
+        text-align: center;
+        margin-top: 50px;
+        font-family: Arial;
+    }
+
+    .size{
+
+        height:  48px;
+    }
+    
+    .size1{
+        height: 50px;
+    }
+
+    .background{
+        background-color: transparent;
+        border-radius: 70px;
+        margin: 11px;
+        border: 3px solid whitesmoke;
+        height:  82px;
+        width: 82px;
+        cursor: pointer;
+        
+    }
+
+    .move{
+        color: whitesmoke;
+        word-spacing: 1px;
+        font-size: 23px;
+        font-weight: bolder;
+        margin-top: 40px;
+        margin-left: 35px;
+        
+    }
+    .result{
+        color: whitesmoke;
+        word-spacing: 3px;
+        font-size: 29px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+
+    .scores{
+        color: whitesmoke;
+        
+        word-spacing: 3px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .reset-message{
+        font-size: 15px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        color: aliceblue;
+        margin-left: 0px;
+        margin-top: 0px;
+      
+    
+    }
+    
+}
+
